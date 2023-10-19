@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&family=Raleway&display=swap');
+
+body {
+    font: 16px/1.5em Raleway, sans-serif;
+    padding: 6em 5em;
+}
+
+h1, h2 {
+    font-family: Great Vibes, cursive;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+h1 {
+    font-size: 2.4em;
+}
+h2 {
+    font-size: 2.2em;
+    margin-top: 2em;
+}
+.root-square-ul {
+    list-style-type: square;
+}
+.middle-dics-ul {
+    list-style-type: disc;
+}
+.inside-circle-ul {
+    list-style-type: circle;
+}
