@@ -1,1 +1,18 @@
-/* TODO: style the html */
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5rem;
+    background-color: #EDEDED;
+}
+h2 {
+    text-decoration: underline;
+    padding: 20px;
+    margin: 10px 5px;
+    letter-spacing: 3px;
+    background-color: #3B516B;
+    border-radius: 10px;
+    color: floralwhite;
+}
+li {
+    margin: 0 0 0 20px;
+}
