@@ -1,1 +1,21 @@
-/* TODO: style the html */
+body {
+    font: 18px/1.5em Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+i {
+    font-size: 25px;
+    margin: 0 0.3em 0 0;
+}
+.check i {
+    color: #2fcc71;
+}
+.star i {
+    color: coral;
+}
+.contact i {
+    color: #3498da;
+}
