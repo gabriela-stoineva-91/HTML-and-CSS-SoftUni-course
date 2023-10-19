@@ -1,1 +1,21 @@
-/* TODO: style the html */
+body {
+    font: 18px/3em Arial, serif;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5.4px;
+    padding: 12.6px 27px;
+}
+a:hover {
+    color: #eee;
+}
+i {
+    padding: 0 5.4px 0 0;
+}
+a.green {
+    background-color: green;
+}
+a.orange {
+    background-color: orange;
+}
