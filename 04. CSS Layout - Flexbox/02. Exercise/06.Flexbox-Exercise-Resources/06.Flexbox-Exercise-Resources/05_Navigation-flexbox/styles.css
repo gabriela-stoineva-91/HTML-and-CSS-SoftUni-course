@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font: 16px/1.5  sans-serif;
+}
+body {
+    padding: 5em 4em;
+    max-width: 90vw;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 0 0 2em 0;   
+}
+
+header p {
+    text-transform: uppercase;
+    font-weight: 500; 
+    font-size: 3em;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+nav {
+    padding: 1em;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1em;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1em 0 0.5em 0;
+}
+main p {
+    padding: 0 0 1.3em 0;
+}
