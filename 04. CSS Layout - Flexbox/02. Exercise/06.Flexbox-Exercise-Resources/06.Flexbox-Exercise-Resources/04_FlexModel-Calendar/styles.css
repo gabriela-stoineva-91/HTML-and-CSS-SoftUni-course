@@ -24,16 +24,14 @@ section {
 
 span {
     border: 1px solid black;
-    padding: 0.5em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
     text-align: center;
     flex-grow: 1;
 }
 
 section.week span:first-child,
 section.week span:nth-child(7) {
-    flex-basis: 100%;
-    padding-bottom: 3em;
+    flex-basis: 100%;   
 }
 
 section.notes {
