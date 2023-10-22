@@ -1,0 +1,16 @@
+.info-section {
+    margin: 4em 0.5em;
+    padding: 0 5em;
+}
+.info-section article {
+    text-align: center;
+    border-left: 2px solid hsl(0, 0%, 85%);
+    
+}
+.info-section article:last-of-type{
+    border-right: 2px solid hsl(0, 0%, 85%);
+}
+.info-section article p{
+    padding: 1em 0.3em 2.5em 0.3em;
+    font-size: smaller;
+}

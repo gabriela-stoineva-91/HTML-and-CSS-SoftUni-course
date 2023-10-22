@@ -1,0 +1,39 @@
+.picture-section {
+    align-items: center;
+    background-color: #AADEDC;
+}
+
+.picture-section div {
+    flex: 1 1 20%;
+}
+.picture-section div.explore{
+    flex: 1 0 50%;
+    padding: 2em 4em 2em 5em;
+    text-align: left;
+
+}
+
+.picture-section div.explore h3,
+.picture-section div.explore p
+{
+    padding: 0.5em 0;
+    font-size: smaller;
+
+}
+.picture-section div.explore p a {
+    display: inline;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid black;
+} 
+.picture-section div.explore p a i {
+    padding: 0.3em;
+}
+.picture-section div.media {
+    border: 1px dashed rgb(152, 147, 147);
+}
+div.media img {
+    margin: 1 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}

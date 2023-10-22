@@ -1,0 +1,99 @@
+/* last section */
+.last {
+    padding: 4em 6em;
+    background-color: #ADE2DF;
+}
+.last h2 {
+    max-width: 52%;
+    font-size: 2.9em;
+    font-weight: 600;
+}
+.last p {
+    font-size: 0.9em;
+    max-width: 60%;
+    font-weight: 500;
+}
+.last p.download a {
+    font-size: 0.8em;
+    padding: 1em 1.5em;
+    background-color: black;
+    color: white;
+    margin: 3em 0.5em 2em 0.5em;
+    border-radius: 0.5em;
+}
+.last p.download i{
+    padding: 0.5em;
+}
+.root {
+    padding: 3em 0;
+    background-color: #f0f1f5a5;
+    border: 2px solid #E8E8E8;
+}
+.root a {
+    font-size: 0.7em;
+    font-weight: bold;
+    background-color:  #ADE2DF;
+    display: inline;
+    padding: 0.5em 0.8em;
+    border-radius: 0.5em;
+}
+.root h2 {
+    margin-top: 1em;   
+}
+.left article {
+    padding: 1em;
+}
+.left article.expand {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 55%;
+    background-color:  #ADE2DF;
+}
+.left hr {
+    margin: 1em 0 1em 0;
+    border: 1px solid #F1F1F1;
+}
+.left article h3 {
+    text-align: center;
+    font-size: smaller;
+}
+.left article p {
+    font-size: 0.6em;
+    line-height: 1.9em;
+    font-weight: 600;
+}
+.left article a {
+    padding: 1.3em 2em;
+    text-align: center;
+    margin: 5em 0.5em 0.3em 0.5em;
+    background-color:  #ADE2DF;
+    border-radius: 0.5em;    
+}
+
+.left i{
+    color: #111124;
+    padding: 0.3em;
+}
+.left div {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+.left div sub {
+    font-size: 0.5em;
+    font-weight: normal;
+}
+.expand .higher {
+    font-size: 0.9em;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+}
+.left .expand p a {
+    margin-top: 40%;
+    background-color: #070707;
+    color: white;
+}
+  
+
+
+

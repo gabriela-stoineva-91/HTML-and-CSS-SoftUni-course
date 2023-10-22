@@ -1,0 +1,97 @@
+html {
+    font: 16px/1.5 Inter, sans-serif;
+}
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 60em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+nav, nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.heading-section {
+    text-align: center;
+}
+.heading-section div {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.info-section {
+    display: flex;
+    justify-content: center;
+}
+.info-section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.picture-section {
+    display: flex;
+    
+}
+
+.explore {
+    flex: 1 1 60%;
+}
+.wider-section {
+    display: flex;
+    flex-direction: column;
+}
+.wider-section .root {
+    text-align: center;
+}
+.wider-section .bottom {
+    display: flex;
+}
+.left {
+    display: flex;
+    
+}
+.last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.last a {
+    display: inline-block;
+}
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.site-footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 1em;
+}
+.wider-section:after {
+    content: '';
+    height: 2.5em;
+    width: 100%;
+    background-color: #F3F5FA;
+}
+
+
+
+
